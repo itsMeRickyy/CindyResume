@@ -2,7 +2,7 @@ import Navbar from "../Navbar/Navbar";
 import HeroSection from "./HeroSection/HeroSection";
 import ProjectSection from "./ProjectSection/ProjectSection";
 import EducationSection from "./EducationSection";
-import Footer from "../footer/footer";
+import Footer from "../Footer/Footer";
 
 const HomeComponents = () => {
   return (
