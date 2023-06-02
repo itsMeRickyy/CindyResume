@@ -7,9 +7,9 @@ const HeroSection = () => {
   return (
     <>
       <div className="mx-10 md:mx-16 mt-8 md:mt-16 ">
-        <div className="flex gap-5 justify-between">
-          <div className=" md:mr-8">
-            <div className=" text-3xl sm:text-4xl">
+        <div className="flex  justify-between">
+          <div className=" bg-green-200">
+            <div className=" text-2xl lg:text-4xl">
               <h1>Administration &</h1>
               <h1>Finance</h1>
             </div>
@@ -32,10 +32,10 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="  flex justify-center items-center">
-            <div className="w-32 h-32 sm:w-40  xl:ml-0 sm:h-40 xl:w-72 md: xl:h-72 rounded-full bg-purple-400"></div>
+          <div className="  flex w-full justify-center  items-center bg-orange-200">
+            <div className="w-32 h-32 sm:w-40  sm:h-40 md:w-44 md:h-44 xl:w-72 md: xl:h-72 rounded-full bg-purple-400"></div>
           </div>
-          <div className="hidden md:block  w-96">
+          <div className="hidden md:block bg-blue-200 md:px-2 lg:w-[45rem]">
             <div className="w-5 h-5 m-auto mt-5 mb-2">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                 <path d="M208 32c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V172.9l122-70.4c15.3-8.8 34.9-3.6 43.7 11.7l16 27.7c8.8 15.3 3.6 34.9-11.7 43.7L352 256l122 70.4c15.3 8.8 20.5 28.4 11.7 43.7l-16 27.7c-8.8 15.3-28.4 20.6-43.7 11.7L304 339.1V480c0 17.7-14.3 32-32 32H240c-17.7 0-32-14.3-32-32V339.1L86 409.6c-15.3 8.8-34.9 3.6-43.7-11.7l-16-27.7c-8.8-15.3-3.6-34.9 11.7-43.7L160 256 38 185.6c-15.3-8.8-20.5-28.4-11.7-43.7l16-27.7C51.1 98.8 70.7 93.6 86 102.4l122 70.4V32z" />
