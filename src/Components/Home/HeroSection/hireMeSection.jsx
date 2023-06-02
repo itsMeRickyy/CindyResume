@@ -45,7 +45,7 @@ const HireMe = () => {
               <div className="flex flex-col   items-center h-full">
                 <h1 className="mb-10 mt-5">*HIRE ME!</h1>
                 <h1 className="text-3xl">Tangerang</h1>
-                <h1 className="text-3xl mt-2">LadyCindy@gmail.com</h1>
+                <h1 className="text-2xl mt-2">LadyCindy@gmail.com</h1>
                 <h1 className="text-2xl mt-5">+62 812-5456-7890</h1>
               </div>
             </div>
