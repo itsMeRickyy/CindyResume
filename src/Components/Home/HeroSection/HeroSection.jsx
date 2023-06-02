@@ -8,7 +8,7 @@ const HeroSection = () => {
     <>
       <div className="mx-10 md:mx-16 mt-8 md:mt-16 ">
         <div className="flex gap-5 justify-between">
-          <div className=" mr-8">
+          <div className=" md:mr-8">
             <div className=" text-3xl sm:text-4xl">
               <h1>Administration &</h1>
               <h1>Finance</h1>
@@ -33,7 +33,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="  flex justify-center items-center">
-            <div className="w-32 h-32 sm:w-40 ml-2 xl:ml-0 sm:h-40 xl:w-72 md: xl:h-72 rounded-full bg-purple-400"></div>
+            <div className="w-32 h-32 sm:w-40  xl:ml-0 sm:h-40 xl:w-72 md: xl:h-72 rounded-full bg-purple-400"></div>
           </div>
           <div className="hidden md:block  w-96">
             <div className="w-5 h-5 m-auto mt-5 mb-2">

@@ -3,7 +3,7 @@ const Footer = () => {
     <>
       <div>
         <div>
-          <div className="w-full h-36 bg-slate-800 flex justify-center">
+          <div className=" h-36 bg-slate-800 flex justify-center">
             <div className="flex items-center">
               <div className="w-16 h-[1px] bg-white mr-3"></div>
               <h1 className="text-white md:text-2xl xl:text-4xl">
