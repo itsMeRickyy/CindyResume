@@ -5,7 +5,7 @@ const EducationSection = () => {
         <div>
           <h1 className="text-center my-10 text-2xl font-JakartaSans font-semibold">Pendidikan & Pengalaman</h1>
           <div className="mx-16">
-            <ol class="relative border-l border-gray-200 dark:border-gray-700">
+            <ol reversed class="relative border-l border-gray-200 dark:border-gray-700 flex flex-col-reverse">
               <li class="mb-10 ml-4">
                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                 <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Agustus 2019 - April 2020</time>
@@ -33,7 +33,7 @@ const EducationSection = () => {
                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                 <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Februari 2022 - Desember 2022</time>
                 <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Finance & Assistant Head Office di CV. Jagoan Kuliner, Tangerang</h3>
-                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Membuat data dan laporan omset dari 6 cabang restoran, merekap data omset, pengluaran & profit, memantau dan melakukan evaluasi perusahaan.</p>
+                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Membuat data dan laporan omset dari 6 cabang restoran, merekap data omset, pengeluaran & profit, memantau dan melakukan evaluasi perusahaan.</p>
               </li>
               <li class="mb-10 ml-4">
                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
