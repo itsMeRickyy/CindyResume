@@ -86,7 +86,7 @@ const HireMe = () => {
           <div class="w-full h-full transition-all  duration-300 group overflow-hidden flex items-center md:hover:w-[95%]">
             <div class=" w-full h-full flex justify-center items-center">
               <div className=" h-60 w-60 rounded-full overflow-hidden bg-orange-300">
-                <img className="scale-150 translate-y-10" src="src\assets\working-office.jpg" alt="" />
+                <img className="scale-150 translate-y-10" src="/images/working-office.jpg" alt="" />
                 {/* <div className="w-72 h-32 mx-auto mt-20 rotate-45 bg-white  rounded-full"></div> */}
                 {/* <div className="-translate-y-52 w-72 h-32 mx-auto mt-20 -rotate-45 bg-white rounded-full"></div> */}
               </div>
