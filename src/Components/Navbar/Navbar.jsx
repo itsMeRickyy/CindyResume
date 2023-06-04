@@ -1,9 +1,9 @@
-import { Button } from "flowbite-react";
-// import PopOverClick from "./popover";
+import { useNavigate } from "react-router-dom";
 import RadixUiPopOver from "./radixUiPopOver";
 import "./navbar.css";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div>
@@ -13,10 +13,10 @@ const Navbar = () => {
             <h1 className="text-2xl font-semibold">Resume.</h1>
           </div>
           <div className="MenuBtn hidden md:flex  w-[50%] px-10 justify-around items-center">
-            <a href="" className=" w-full h-full flex text-sm justify-center items-center ">
+            <a onClick={() => navigate("/")} href="" className=" w-full h-full flex text-sm justify-center items-center ">
               HOME
             </a>
-            <a href="" className=" w-full h-full flex text-sm justify-center items-center ">
+            <a onClick={() => navigate("/about")} href="" className=" w-full h-full flex text-sm justify-center items-center ">
               ABOUT
             </a>
             <a href="" className=" w-full h-full flex text-sm justify-center items-center ">
