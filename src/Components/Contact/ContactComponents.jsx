@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-const AboutComponents = () => {
+const ContactComponents = () => {
   return (
     <>
       <Navbar />
@@ -10,4 +10,4 @@ const AboutComponents = () => {
   );
 };
 
-export default AboutComponents;
+export default ContactComponents;

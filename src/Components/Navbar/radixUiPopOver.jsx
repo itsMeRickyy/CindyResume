@@ -27,7 +27,7 @@ const RadixUiPopOver = () => {
                   <a onClick={() => navigate("/about")} href="" className="text-white w-full h-full flex text-sm p-2  items-center px-2 hover:bg-gray-700 rounded-lg ">
                     ABOUT
                   </a>
-                  <a href="" className="text-white w-full h-full flex text-sm p-2  items-center px-2 hover:bg-gray-700  rounded-lg">
+                  <a onClick={() => navigate("/contact")} href="" className="text-white w-full h-full flex text-sm p-2  items-center px-2 hover:bg-gray-700  rounded-lg">
                     CONTACT
                   </a>
                 </div>

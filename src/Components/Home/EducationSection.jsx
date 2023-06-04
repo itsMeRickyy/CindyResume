@@ -5,7 +5,13 @@ const EducationSection = () => {
         <div>
           <h1 className="text-center my-10 text-2xl font-JakartaSans font-semibold">Pendidikan & Pengalaman</h1>
           <div className="mx-16">
-            <ol reversed class="relative border-l border-gray-200 dark:border-gray-700 flex flex-col-reverse">
+            <ol class="relative border-l border-gray-200 dark:border-gray-700 flex flex-col-reverse">
+              <li class="mb-10 ml-4">
+                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2018 - 2021</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">SMKS Bina Insani Tangerang</h3>
+                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Bersekolah di SMK BIna Insani dengan jurusan Administrasi Perkantoran</p>
+              </li>
               <li class="mb-10 ml-4">
                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                 <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Agustus 2019 - April 2020</time>
@@ -39,7 +45,7 @@ const EducationSection = () => {
                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                 <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Januari 2023 - may 2023</time>
                 <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Asisstant HO & Junior Bussines Development di CV. Jagoan Kuliner, Tangerang</h3>
-                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Melakukan pengawasan operasional perusahaan dan brand, serta membuat dan menjalankan projek terbaru,</p>
+                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Melakukan pengawasan operasional perusahaan dan brand, serta membuat dan menjalankan projek terbaru.</p>
               </li>
             </ol>
           </div>

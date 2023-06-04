@@ -19,7 +19,7 @@ const Navbar = () => {
             <a onClick={() => navigate("/about")} href="" className=" w-full h-full flex text-sm justify-center items-center ">
               ABOUT
             </a>
-            <a href="" className=" w-full h-full flex text-sm justify-center items-center ">
+            <a onClick={() => navigate("/contact")} href="" className=" w-full h-full flex text-sm justify-center items-center ">
               CONTACT
             </a>
           </div>
