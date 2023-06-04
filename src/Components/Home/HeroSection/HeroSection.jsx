@@ -35,7 +35,7 @@ const HeroSection = () => {
           <div className="  flex w-full justify-center  items-center ">
             <div className="w-32 h-32 sm:w-40  sm:h-40 md:w-44 md:h-44 xl:w-72 md: xl:h-72 rounded-full overflow-hidden bg-slate-400">
               {/* <img src="../src/assets/profil-img.jpg" alt="" /> */}
-              <img src="src/Components/Home/HeroSection/profilImage.png" alt="" />
+              <img src="/images/profilImage.png" alt="" />
             </div>
           </div>
           <div className="hidden md:block  md:px-2 lg:w-[45rem]">
