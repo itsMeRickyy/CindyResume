@@ -63,7 +63,7 @@ const ProjectSection = () => {
                   <div className=" py-10 flex flex-col justify-center">
                     <div className="w-60 h-60  bg-red-300 mx-auto"></div>
                     <h1 className="text-center my-5 text-1xl font-bold ">Project one</h1>
-                    <p className="text-center mx-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corporis, fuga adipisci rem molestias laborum ab earum odio aperiam accusantium reiciendis.</p>
+                    <p className="text-center mx-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                   </div>
                 </SwiperSlide>
               </Swiper>
