@@ -42,11 +42,11 @@ const HireMe = () => {
         <SwiperSlide className="h-72 md:w-60 md:h-60 swiper-slide flex justify-center items-center">
           <div class="w-full h-full transition-all  duration-300 group overflow-hidden flex items-center md:hover:w-[95%]">
             <div class=" w-full h-full ">
-              <div className="flex flex-col   items-center h-full">
+              <div className="flex flex-col items-center h-full">
                 <h1 className="mb-10 mt-5">*HIRE ME!</h1>
                 <h1 className="text-3xl">Tangerang</h1>
-                <h1 className="text-2xl mt-2">LadyCindy@gmail.com</h1>
-                <h1 className="text-2xl mt-5">+62 812-5456-7890</h1>
+                <h1 className="text-[22px] mt-2">Ladycindyyy15@gmail.com</h1>
+                <h1 className="text-2xl mt-5">+62 851-5617-5943</h1>
               </div>
             </div>
           </div>

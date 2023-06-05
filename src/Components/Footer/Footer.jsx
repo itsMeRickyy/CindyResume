@@ -12,7 +12,7 @@ const Footer = () => {
               </h1>
             </div>
           </div>
-          <div className="flex justify-between items-center mx-10 md:mx-16 py-4 md:py-6 border-b-2">
+          {/* <div className="flex justify-between items-center mx-10 md:mx-16 py-4 md:py-6 border-b-2">
             <div>
               <h1 className="text-1xl font-semibold">My</h1>
               <h1 className="text-2xl font-semibold">Resume.</h1>
@@ -42,7 +42,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
