@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import RadixUiPopOver from "./radixUiPopOver";
 import "./navbar.css";
@@ -13,15 +14,15 @@ const Navbar = () => {
             <h1 className="text-2xl font-semibold">Resume.</h1>
           </div>
           <div className="MenuBtn hidden md:flex  w-[50%] px-10 justify-around items-center">
-            <a onClick={() => navigate("/")} href="" className=" w-full h-full flex text-sm justify-center items-center ">
+            <Link to="/" className=" w-full h-full flex text-sm justify-center items-center ">
               HOME
-            </a>
-            <a onClick={() => navigate("/about")} href="" className=" w-full h-full flex text-sm justify-center items-center ">
+            </Link>
+            <Link to="/about" className=" w-full h-full flex text-sm justify-center items-center ">
               ABOUT
-            </a>
-            <a onClick={() => navigate("/contact")} href="" className=" w-full h-full flex text-sm justify-center items-center ">
+            </Link>
+            <Link to="/contact" className=" w-full h-full flex text-sm justify-center items-center ">
               CONTACT
-            </a>
+            </Link>
           </div>
           <div className=" w-[15%] flex justify-end items-center">
             <button
