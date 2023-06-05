@@ -1,6 +1,7 @@
 import React from "react";
 import * as Popover from "@radix-ui/react-popover";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const RadixUiPopOver = () => {
   const navigate = useNavigate();
@@ -21,15 +22,15 @@ const RadixUiPopOver = () => {
             <div className="">
               <div className="  rounded-lg bg-gray-800  w-36 ">
                 <div className=" flex flex-col h-full justify-around gap-2 px-2 py-2">
-                  <a onClick={() => navigate("/")} href="" className="text-white w-full h-full flex text-sm p-2  items-center px-2 hover:bg-gray-700 rounded-lg ">
+                  <Link to="/" className="text-white w-full h-full flex text-sm p-2  items-center px-2 hover:bg-gray-700 rounded-lg ">
                     HOME
-                  </a>
-                  <a onClick={() => navigate("/about")} href="" className="text-white w-full h-full flex text-sm p-2  items-center px-2 hover:bg-gray-700 rounded-lg ">
+                  </Link>
+                  <Link to="/about" className="text-white w-full h-full flex text-sm p-2  items-center px-2 hover:bg-gray-700 rounded-lg ">
                     ABOUT
-                  </a>
-                  <a onClick={() => navigate("/contact")} href="" className="text-white w-full h-full flex text-sm p-2  items-center px-2 hover:bg-gray-700  rounded-lg">
+                  </Link>
+                  <Link to="/contact" className="text-white w-full h-full flex text-sm p-2  items-center px-2 hover:bg-gray-700  rounded-lg">
                     CONTACT
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
