@@ -12,8 +12,8 @@ const HomeComponents = () => {
         <HeroSection />
         <EducationSection />
         <ProjectSection />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 };

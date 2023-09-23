@@ -57,17 +57,19 @@ const ProjectSection = () => {
                     <div className="w-60 h-60   mx-auto overflow-hidden">
                       <img className="scale-110 mt-2" src="/images/project2.jpeg" alt="" />
                     </div>
-                    <divc className="flex flex-col   h-40">
+                    <div className="flex flex-col   h-40">
                       <h1 className="text-center my-5 text-1xl font-bold ">Jajarans Festival</h1>
                       <p className="text-center mx-10">Merencanakan alur operasional selama event berlangsung</p>
-                    </divc>
+                    </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="h-[27rem]   swiper-slide flex justify-center items-center">
                   <div className=" py-10 flex flex-col justify-center">
-                    <div className="w-60 h-60  bg-red-300 mx-auto"></div>
+                    <div className="w-60 h-60   mx-auto overflow-hidden">
+                      <img className="scale-110 mt-2" src="/images/project-gs.jpg" alt="" />
+                    </div>
                     <div className="flex flex-col h-40">
-                      <h1 className="text-center my-5 text-1xl font-bold ">Project one</h1>
+                      <h1 className="text-center my-5 text-1xl font-bold ">Pembukaan cabang baru</h1>
                       <p className="text-center mx-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </div>
                   </div>

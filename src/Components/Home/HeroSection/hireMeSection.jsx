@@ -8,7 +8,7 @@ import "swiper/css";
 
 const HireMe = () => {
   return (
-    <div>
+    <div className="-z-40">
       <Swiper
         className=""
         modules={[Autoplay]}
@@ -40,8 +40,8 @@ const HireMe = () => {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide className="h-72 md:w-60 md:h-60 swiper-slide flex justify-center items-center">
-          <div class="w-full h-full transition-all  duration-300 group overflow-hidden flex items-center md:hover:w-[95%]">
-            <div class=" w-full h-full ">
+          <div className="w-full h-full transition-all  duration-300 group overflow-hidden flex items-center md:hover:w-[95%]">
+            <div className=" w-full h-full ">
               <div className="flex flex-col items-center h-full">
                 <h1 className="mb-10 mt-5">*HIRE ME!</h1>
                 <h1 className="text-3xl">Tangerang</h1>
@@ -52,8 +52,8 @@ const HireMe = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="h-72 cursor-grabmd:w-60 md:h-60 swiper-slide flex justify-center items-center ">
-          <div class="w-full h-full transition-all  duration-300 group overflow-hidden flex items-center md:hover:w-[95%]">
-            <div class=" w-full h-full py-10">
+          <div className="w-full h-full transition-all  duration-300 group overflow-hidden flex items-center md:hover:w-[95%]">
+            <div className=" w-full h-full py-10">
               <div className="grid grid-cols-3 grid-rows-3 gap-5  h-full pr-10">
                 <div className="bg-slate-800 w-14 h-14 translate-x-3 flex justify-center items-center rounded-full">
                   <div className="w-5 h-5 m-auto  fill-white ">
@@ -83,8 +83,8 @@ const HireMe = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="h-72 md:w-60 md:h-60 swiper-slide flex justify-center items-center">
-          <div class="w-full h-full transition-all  duration-300 group overflow-hidden flex items-center md:hover:w-[95%]">
-            <div class=" w-full h-full flex justify-center items-center">
+          <div className="w-full h-full transition-all  duration-300 group overflow-hidden flex items-center md:hover:w-[95%]">
+            <div className=" w-full h-full flex justify-center items-center">
               <div className=" h-60 w-60 rounded-full overflow-hidden bg-orange-300">
                 <img className="scale-150 translate-y-10" src="/images/working-office.jpg" alt="" />
                 {/* <div className="w-72 h-32 mx-auto mt-20 rotate-45 bg-white  rounded-full"></div> */}
